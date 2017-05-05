@@ -1,0 +1,7 @@
+angi_api:
+    resource: "@AngiApiBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation
